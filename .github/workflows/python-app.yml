@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: List files for debug
-      run: ls -la
+      run: ls -la  # Lists files in the root folder
 
     - name: Set up Python
       uses: actions/setup-python@v4
